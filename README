@@ -1,0 +1,32 @@
+= Beastly
+
+Allow your Radiant to play with Altered Beast forum software.
+
+= How
+
+The migrations in this extension load the tables needed for the Beast
+installation.  This is necessary because by default Beast uses db:schema:load
+which will alter your migration data.  After the migration you can set up
+and use Beast with the same login credentials you already have for Radiant.
+
+= Beast Setup
+
+Check out a copy of Altered Beast.
+  * git clone git://github.com/courtnay/altered_beast.git
+
+Install the radiant_authentication plugin
+  * script/plugin install git://github.com/rubidine/radiant_authentication.git
+
+Install the acts_as_tree plugin (because Radiant pages act as tree)
+  * script/plugin install acts_as_tree
+
+Install the default_order plugin (because Radiant models use it)
+  * script/plugin install acts_as_tree
+
+Point config/database.yml to the radiant database.
+
+Run beast, probably on a subdomain (or using a rewrite rule, whatever).
+
+= Feedback
+
+todd@rubidine.com
