@@ -15,7 +15,7 @@ Check out a copy of Altered Beast.
   * git clone git://github.com/courtnay/altered_beast.git
 
 Install the radiant_authentication plugin
-  * script/plugin install git://github.com/rubidine/radiant_authentication.git
+  * script/plugin install git://github.com/xtoddx/radiant_integration.git
 
 Install the acts_as_tree plugin (because Radiant pages act as tree)
   * script/plugin install acts_as_tree
