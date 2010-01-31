@@ -14,11 +14,11 @@ class BeastlyExtension < Radiant::Extension
     controllers = [
       Admin::AbstractModelController,
       Admin::ExportController,
-      Admin::ExtensionController,
-      Admin::LayoutController,
-      Admin::PageController,
-      Admin::SnippetController,
-      Admin::UserController
+      Admin::ExtensionsController,
+      Admin::LayoutsController,
+      Admin::PagesController,
+      Admin::SnippetsController,
+      Admin::UsersController
     ]
 
     controllers.each do |c|
