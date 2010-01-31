@@ -12,7 +12,7 @@ and use Beast with the same login credentials you already have for Radiant.
 = Beast Setup
 
 Check out a copy of Altered Beast.
-  * git clone git://github.com/courtnay/altered_beast.git
+  * git clone git://github.com/courtenay/altered_beast.git
 
 Install the radiant_authentication plugin
   * script/plugin install git://github.com/xtoddx/radiant_integration.git
